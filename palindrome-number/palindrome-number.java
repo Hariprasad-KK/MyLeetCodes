@@ -5,7 +5,6 @@ class Solution {
     }
     return x - reverse(x) == 0;
   }
-  
   private int reverse(int n) {
     int newNum = 0;
     while (n > 0) {
