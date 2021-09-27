@@ -16,28 +16,18 @@ class Solution {
                 a[k]=nums2[j];
                 j++;
             }k++;
-        }
-        while(i<m)
-        {
-            a[k]=nums1[i];
+        }while(i<m)
+        {a[k]=nums1[i];
             i++;
             k++;
-        }
-        while(j<n)
-        {
-            a[k]=nums2[j];
+        } while(j<n)
+        { a[k]=nums2[j];
             j++;
-            k++;
-        }
-        if((m+n)%2!=0)
-        {
-            return a[(m+n)/2];
-        }
+            k++;}if((m+n)%2!=0)
+        {return a[(m+n)/2];}
         else{
             int x=(m+n)/2;
             double p = a[x];
             double q = a[x-1];
             return (p+q)/2;
-        }
-    }
-}
+        } }}
