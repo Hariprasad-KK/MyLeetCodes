@@ -4,7 +4,7 @@ class Solution {
       return "";
     }
     int minLength = Integer.MAX_VALUE;
-    int idx = -1;
+    int idx = 1;
     for (int i = 0; i < strs.length; i++) {
       if (strs[i].length() < minLength) {
         minLength = strs[i].length();
